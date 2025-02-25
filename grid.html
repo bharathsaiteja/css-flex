@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display:grid;
+            height:98vh;
+            grid-template-columns: 15% 70% 15%;
+            grid-template-rows: 10% 80% 10%;
+            width: auto;
+        }
+        .header{
+            background-color: #264653;
+            grid-column: 1/4;
+            grid-row: 1/2;
+            display: flex;
+            justify-content: center;
+            color: azure;
+            align-items: center;
+            border: 2px solid grey
+        }
+        .leftmenu{
+            background-color: #e9c46a;
+            grid-column: 1/2;
+            grid-row: 2/3 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid grey
+
+        }
+        .main{
+            background-color: #2a9d8f;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid grey
+        }
+        .rightmenu{
+            background-color: #f4a261;
+            grid-column: 3/4;
+            grid-row: 2/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid grey
+        }
+        
+        
+        .footer{
+            background-color: #e76f51;
+            grid-column: 1/4;
+            grid-row: 3/4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid grey
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <section class="header">HEADER</section>
+        <section class="leftmenu">LEFT MENU</section>
+        <section class="main">MAIN</section>
+        <section class="rightmenu">RIGHT MENU</section>
+        <section class="footer">FOOTER</section>
+
+    </section>
+    
+</body>
+</h
